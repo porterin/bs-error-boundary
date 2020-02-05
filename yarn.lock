@@ -57,12 +57,6 @@ react@>=16.8.1, react@^16.12.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
-"reason-error-boundary@file:../reason-error-boundary":
-  version "0.0.1"
-  dependencies:
-    react "^16.12.0"
-    react-dom "^16.12.0"
-
 reason-react@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.7.0.tgz#46a975c321e81cd51310d7b1a02418ca7667b0d6"
@@ -78,3 +72,15 @@ scheduler@^0.18.0:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+typescript-error-boundary@/Users/porteruser/work/projects/reason-error-boundary:
+  version "0.0.1"
+  dependencies:
+    react "^16.12.0"
+    react-dom "^16.12.0"
+
+"typescript-error-boundary@file:../reason-error-boundary":
+  version "0.0.1"
+  dependencies:
+    react "^16.12.0"
+    react-dom "^16.12.0"

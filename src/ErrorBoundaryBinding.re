@@ -8,8 +8,8 @@ type error = {
 [@bs.module "reason-error-boundary"] [@react.component]
 external make:
   (
-    ~onError: option((Js.t('a), string) => unit)=?,
-    ~fallbackComponent: option((Js.t('a), string) => React.element)=?,
+    ~showFallbackComponent: option((Js.t('a), string) => bool)=?,
+    ~onErrorFallbackComponent: option((Js.t('a), string) => React.element)=?,
     ~children: React.element
   ) =>
   React.element =
