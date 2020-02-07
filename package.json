@@ -13,10 +13,10 @@
   },
   "keywords": [
     "Reason",
-    "Bindings",
-    "React",
-    "Error",
-    "Boundary"
+    "Reason Binding",
+    "Reason React Error Binding",
+    "React Error Boundary",
+    "Error Boundary"
   ],
   "author": "karandeep.vohra@theporter.in",
   "license": "ISC",
@@ -25,13 +25,12 @@
   },
   "homepage": "https://github.com/porterin/bs-error-boundary#readme",
   "devDependencies": {
-    "bs-platform": "^7.1.0",
+    "bs-platform": "porterin/bs-platform",
     "reason-react": "^0.7.0"
   },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "reason-error-boundary": "/Users/porteruser/work/projects/reason-error-boundary",
-    "typescript-error-boundary": "/Users/porteruser/work/projects/reason-error-boundary"
+    "react-error-boundary-ts": "/Users/porteruser/work/projects/react-error-boundary-ts"
   }
 }

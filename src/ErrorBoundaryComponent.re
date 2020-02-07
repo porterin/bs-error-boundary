@@ -5,10 +5,10 @@ type error = {
   stack: option(string),
 };
 
-[@bs.module "reason-error-boundary"] [@react.component]
+[@bs.module "react-error-boundary-ts"] [@react.component]
 external make:
   (
-    ~showFallbackComponent: option((Js.t('a), string) => bool)=?,
+    ~handleError: option((Js.t('a), string) => bool)=?,
     ~onErrorFallbackComponent: option((Js.t('a), string) => React.element)=?,
     ~children: React.element
   ) =>
