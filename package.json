@@ -31,6 +31,6 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-error-boundary-ts": "/Users/porteruser/work/projects/react-error-boundary-ts"
+    "react-error-boundary-ts": "porterin/react-error-boundary-ts#error_boundary_component"
   }
 }

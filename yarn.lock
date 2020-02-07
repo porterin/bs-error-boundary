@@ -42,8 +42,9 @@ react-dom@>=16.8.1, react-dom@^16.12.0:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
-"react-error-boundary-ts@file:../react-error-boundary-ts":
+react-error-boundary-ts@porterin/react-error-boundary-ts#error_boundary_component:
   version "0.0.1"
+  resolved "https://codeload.github.com/porterin/react-error-boundary-ts/tar.gz/2fd4ec4d4f67f44accadbfbdb1bd7c5fdc901799"
   dependencies:
     react "^16.12.0"
     react-dom "^16.12.0"
