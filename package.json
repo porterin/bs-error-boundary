@@ -1,0 +1,36 @@
+{
+  "name": "bs-error-boundary",
+  "version": "0.0.1",
+  "description": "Binding for React Error Boundary",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "bs:clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porterin/bs-error-boundary.git"
+  },
+  "keywords": [
+    "Reason",
+    "Reason Binding",
+    "Reason React Error Binding",
+    "React Error Boundary",
+    "Error Boundary"
+  ],
+  "author": "karandeep.vohra@theporter.in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porterin/bs-error-boundary/issues"
+  },
+  "homepage": "https://github.com/porterin/bs-error-boundary#readme",
+  "devDependencies": {
+    "bs-platform": "porterin/bs-platform",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-error-boundary-ts": "porterin/react-error-boundary-ts#error_boundary_component"
+  }
+}
